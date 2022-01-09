@@ -42,5 +42,20 @@ what resources:
 
 如何与codecademy 上的其他学习者沟通交流  
 
+Codecademy Community forums https://discuss.codecademy.com/  
+ Codecademy Discord Server https://discord.com/invite/codecademy  
+
+可以通过在论坛上回答问题来检验自己是否已掌握所学知识。  
+
+论坛规则：  
+1. 不允许NSFW（Not Safe/Suitable For Work）内容
+2. ...
+6. 问题提到一个category里，不要在多个category重复提问题。  
+
+有这么几个东西值得注意：
+* 有个论坛
+* 有个discord server 这个我理解也是提问题的，但比论坛更实时通讯  
+* group就是与你同时选择某个path的learner同属一个group  
+* chapter我理解是群，某个议题建个chapter，比如区块链  
 
 
