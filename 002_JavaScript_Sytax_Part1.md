@@ -166,5 +166,4 @@ Shown in Chapter 12
 * Program: 找到需要展示的图片子集  
 * Modify: 展示使用那个tag的图片子集  
 
-该看书的p8 the structure of this book
 
