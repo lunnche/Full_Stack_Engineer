@@ -166,4 +166,17 @@ Shown in Chapter 12
 * Program: 找到需要展示的图片子集  
 * Modify: 展示使用那个tag的图片子集  
 
+# Intro to Mozilla Developer Network  
+
+学习一样东西的时候，直接去看官方文档会是有效的方法  
+
+对于网络开发来说，一个很有用的东西就是“MDN”——Mozilla Developer Network,
+上边有很多关于网络开发的东西。  
+
+## Searching for MDN Articles  
+MDN首页右上角搜索栏，注意搜出结果后没必要通读全文，关注对你来说最有意义的部分即可，定义下面紧跟demo，告诉你用法，有实时输出，可以互动，改代码，看看有什么变化。  
+定义、demo之后是属性，用法说明（很重要，在处理不熟悉语法时，看看这个可以规避常见错误），如果不是太懂用法说明，别急，后边跟着示例代码段。在后面supporting section是一些不太必须但可以扩展你知识面或为你带来更深入理解的东西。再后面是Accessibility Concerns 和示例代码，再后面是specification，它链接一些更详细的东西，再后面是浏览器兼容性，（caniuse.com类似这块，但简单很多）  
+
+## MDN Documentation  MDN Javascript  
+
 
