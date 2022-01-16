@@ -179,4 +179,64 @@ MDN首页右上角搜索栏，注意搜出结果后没必要通读全文，关�
 
 ## MDN Documentation  MDN Javascript  
 
+https://developer.mozilla.org/en-US/docs/Web/JavaScript
+
+有什么不会的查查这个文档  
+
+# INTRODUCTION TO JAVASCRIPT  
+
+## Console  
+
+The console is a panel that display important messages,like errors,for developers.大部分的计算机对我们代码的操作我们都是看不见的，如果我们想看，可以用console来print 或者 log 
+
+```
+console.log(这是你想输出在屏幕上的东西)
+```
+
+
+建议每句后面以分好;结束，虽然它不是必须的，养成这个习惯，有助于在真正需要分号的时候不会遗漏。  
+
+JS区分大小写  
+
+## Comments  
+
+单行注释 //  
+
+/* 
+多行注释
+*/  
+
+为何需要注释掉一段代码
+1 为了提升代码段的效率，可注释掉原来的，编写新的，新的不行，就删新回复旧，新的可以，就删旧保留新  
+2 为了追踪bug，注释掉一段，看剩下的有没有错，来看哪段代码出错  
+
+## Data Types  
+
+* Number  
+* String   单引号或双引号括起来  
+* Boolean  
+* Null  
+* Unefined  
+* Symbol  
+* Object  
+
+## Arithmetic Operators  
+
+1. Add: +  
+2. Subtract: -  
+3. Multiply: *  
+4. Divide: /  
+5. Remainder(modulo): %  
+
+Note that while in most languages, ‘%’ is a remainder operator, in some (e.g. Python, Perl) it is a modulo operator. For positive values, the two are equivalent, but when the dividend and divisor are of different signs, they give different results. To obtain a modulo in JavaScript, in place of a % n , use ((a % n ) + n ) % n .
+如上述，注意一个点：-5%20  不同语言结果不一样。JavaScript得-5，Python得15，这是取余与模 的区别。  
+
+## String Concatenation  
++号可以用来连接两个字符串  
+
+## Properties  
+当向JavaScript程序中引入一段新数据时，浏览器将其保存为该数据类型的实例.每个字符串实例都有一个名为length的属性，用于存储该字符串中的字符数.您可以通过在字符串后附加句点和属性名称来检索属性信息.  
+
+`.` is another operator.  We call it the dot operator.  
+
 
