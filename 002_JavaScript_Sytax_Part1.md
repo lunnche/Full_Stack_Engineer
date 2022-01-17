@@ -239,4 +239,32 @@ Note that while in most languages, ‘%’ is a remainder operator, in some (e.g
 
 `.` is another operator.  We call it the dot operator.  
 
+## Medthods  
+
+`'example string'.methodName()`  
+
+
+
+## How to Use Developer Documentation  
+
+怎么用文档，以python文档为例，除了擅用右上角搜索，还要注意General Index,里边有所有函数、类。。。
+举个例子，我想把一个python列表，里边是球队名，按字母顺序重新排序，我应该怎么做这件事：  
+* Identifying the data type/structure you're working with --List  
+* Find functions available that may help you manipulate your data/code  
+* Search the documentation to find what you are looking for in this case -- LIST FUNCTIONS  
+
+所以呢，按上述步骤我回到python documentation 搜索“list”，里边有各种method，如果你看不懂，那就做一个list，拿这些method来试验，实际看看有什么用，这能帮助你理解，  
+
+另一种方法，不用搜索，而是用general index，点进去，点“L”，用浏览器自带的搜索功能，比如chrome就是Ctrl+F，输入“list",找到list(built-in class),  
+
+OK,再看看MDN怎么用，MDN主要的重点是前端技术，如javascript,html,css,  
+
+进入MDN网站，注意导航栏有两个值得关注的东西：Technologies,References&Guides,  
+
+Technologies里面包含所有语言文档的列表，  
+
+References&Guides 里面包含教程，开发者指引，  
+
+看到10：52了 下面这个视频  
+https://www.youtube.com/watch?v=s1PLS3SQHQ0
 
