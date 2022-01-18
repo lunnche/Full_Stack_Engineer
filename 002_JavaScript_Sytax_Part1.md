@@ -268,3 +268,32 @@ References&Guides 里面包含教程，开发者指引，
 看到10：52了 下面这个视频  
 https://www.youtube.com/watch?v=s1PLS3SQHQ0
 
+里面有CSS introduction,CSS tutorials,CSS reference   
+其他语言的部分的structure基本也是这样，如果你对某个语言不是很自信，那么tutorial 部分非常棒，是可以和codecademy配套的很好的联系材料，  
+reference是什么呢，点进去，首先，第一段给了你不同的链接，链接到后面不同的部分，然后下面有基本的语法示例，告诉你如何写一个style block  
+再往下，就会看到keyword index，有各种关键字的列表，每个关键字点进去有可互动的介绍，可以进行各种操作来试验用法，右上角的reset可以进行重置，  
+
+来看一个例子:  
+```
+nbateams=['Hawks','Lakers','Celtics','Raptors','Warriors','Heat']
+```
+
+我想搞个filter，使得上面队伍中只剩下六个及以上字母的队名
+我要怎么做呢？  
+* Identifying the data type/structure you're working with -ARRAY  
+* Idnetifying the goal you have and aligning it with a particular function -FILTER  
+* Search the documentation to find what you are looking for in this case -ARRAY FILTER  
+
+## 啥是replit  
+
+replitallows you to build and host your coding projects instantly with no setup and it provides you with a social browser-based ide where you can collaborate with others and share your work  
+
+和他人合作时，可以use threads to annotate sections of code for them  
+
+如果你想分享你的代码，但不允许别人编辑它，你可以使用左上角的spotlight,这将会打开一个url where 其他人可以run你的code，view 你的code  
+
+可以把你的project 直接publish到apps gallery from your workspace by clicking publish   
+
+注意 replit 的 docs   docs.replit.com  
+
+
