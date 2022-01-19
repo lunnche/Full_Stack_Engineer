@@ -296,4 +296,109 @@ replitallows you to build and host your coding projects instantly with no setup 
 
 注意 replit 的 docs   docs.replit.com  
 
+## Built-in Objects  
+
+除了console，还有其他的JavaScript内建对象  
+比如Math对象  
+```JavaScript
+console.log(Math.random());//Prints a random number between 0(inclusive) and 1(exclusive)
+```
+
+取整：Math.floor  
+
+## How to Build a (Web Dev) Portfolio  
+
+为啥要建一个portfolio?  
+* Perspective employers or clients want to see your current body of work.  
+只跟你的雇主或者客户说相信我我能搞定是不够的，  
+
+* A portfolio brings credibility because it showcases your work  
+* This also has the benifit of being an online resume  
+
+portfolio 我猜是类似作品集之类的玩意？  
+
+Where should you start?  
+* Codecademy Projects  
+* Build a project on your own  
+没有头绪的话，可以考虑重新设计别人的网站  
+  Planning 
+  Wireframe  remember the goal is improvement not perfection
+* Keep building   
+如果你发现没有好的项目idea，一个好办法是考虑为你已有项目增加xin feature.  
+keep building 也意味着keep iteration:比如你第一个网站使用HTML和CSS做的，然后呢你可以往里面添加一些vanilla JavaScript,然后呢你第二个项目就可以考虑同时使用HTML,CSS,JavaScrip，再整个框架，比如react,然后呢第三个项目可以考虑把你的react项目用nodejs编出来  
+* Clean up  
+整理你的porfolio，移除老项目已经不能反映你技术水平的老项目，  
+
+好吧，如果你不做前端工作呢？  
+如果你做Python data sciece 或者 machine learning  
+* You still want your completed code online   
+* Make sure you include detail instructions on how the program works and what is the expected output  
+* Do step-by-step writeups with Jupyter notebooks.  
+
+所以应该把我们的portfolio放在哪？  
+Hosting  
+*Web Hosting  
+*VPS virtual private server
+*Dedicated  
+
+推荐还是把Portfolio放在GitHub  
+
+GitHub  
+* GitHub ahould already be used to host your code  
+* You can convert your front end code into a GitHub page.  
+* Almost every major tech company used Git,this makes you more hireable.  
+
+对于一个web developer来说，两件事佷重要：  
+1 技术
+2 一个证明你有技术的portfolio  
+
+Review
+Let’s take one more glance at the concepts we just learned:
+
+Data is printed, or logged, to the console, a panel that displays messages, with console.log().
+
+We can write single-line comments with // and multi-line comments between /* and */.
+
+There are 7 fundamental data types in JavaScript: strings, numbers, booleans, null, undefined, symbol, and object.
+
+Numbers are any number without quotes: 23.8879
+
+Strings are characters wrapped in single or double quotes: 'Sample String'
+
+The built-in arithmetic operators include +, -, *, /, and %.
+
+Objects, including instances of data types, can have properties, stored information. The properties are denoted with a . after the name of the object, for example: 'Hello'.length.
+
+Objects, including instances of data types, can have methods which perform actions. Methods are called by appending the object or instance with a period, the method name, and parentheses. For example: 'hello'.toUpperCase().
+
+We can access properties and methods by using the ., dot operator.
+
+Built-in objects, including Math, are collections of methods and properties that JavaScript provides.
+
+## Variables  
+
+variables label and store data in memory.there are only a few things you can do with variables:  
+1. Create a variable with a descriptive name.  
+2. Store or update information stored in a variable.  
+3. Reference or "get" information stored in a variable.  
+
+## 题外话 怎么记住你所学的东西  
+
+彼此独立的知识点很难被记住，要把他们连接起来，
+一些建议：  
+1. focus on understanding  
+
+focus on concepts and ideas  
+
+We don't learn human languages well from just a dictionary,Instead we want to put our skills and learning into practice by working on projects.  
+
+Don't focus on remembering code. Instead remember ideas.  
+
+理解了底层概念和算法你将可以使用多种语言来编程  
+
+2. Apply what you are leaning through working on projects.  
+
+看这个视频  https://www.youtube.com/watch?v=aMzAjQ4uUag  
+到3：26了  
+
 
