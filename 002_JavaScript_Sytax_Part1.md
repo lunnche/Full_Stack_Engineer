@@ -401,4 +401,78 @@ Don't focus on remembering code. Instead remember ideas.
 看这个视频  https://www.youtube.com/watch?v=aMzAjQ4uUag  
 到3：26了  
 
+3. View other people's projects and codebase.  
 
+4. Find a community to share,collaborate,to give and receive feedback on projects.  
+
+be open to feedback on your work
+
+5. Know where to find the answers to your questions.  
+
+6. Compile good resources.
+
+7. Take notes.  
+
+8. 最重要的 PRACTICE  
+
+---------
+
+## VARIABLES  
+
+### Create a Variable:var  
+
+ES6版本更新引入了两个新关键字：let 和 const来创建和声明变量。此前程序员只能使用 var来声明变量。  
+
+```javascript
+var myName = 'Arya';
+console.log(myName);
+//Output:Arya
+```
+
+camel casing:In camel casing you group words into one,the first word is lowercase,then every word that follows will have its first letter uppercased.(e.g. camelCaseEverything).  
+
+There are a few general rules for naming variables:  
+* Variable names cannot start with numbers.
+* Variable names are case sensitive,It is bad practice to create two variables that have the same name using different cases.  
+* Variable names cannot be the same as Keywords.
+查看Javascript的关键字： https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Lexical_grammar#keywords  
+
+用let和const比var好，但很多ES6以前的项目里只有var，所有有必要懂。  
+更多关于var的内容：https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/var  
+
+## Create a Variable:let  
+
+`let` keyword signals that the variable can be reassigned a different value.  
+
+```javascript
+let meal = 'Enchiladas';
+console.log(meal);//Output: Enchiladas
+meal = 'Burrito';
+console.log(meal);//Output:Burrito
+```
+
+when using `let`(and even `var`),we can declare a variable without assigning the variable a value.In such a case,the variable will be automatically initialized with a value of `undefined`:  
+
+```javascript
+let price;
+console.log(price);//Output:undefined
+price = 350;
+console.log(price);//Output:350  
+```
+
+let 比 var好，因为它是block scoped.
+具体解释参看：https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/var  
+
+简单说，看一个栗子🌰：  
+```javascript
+if (true){
+    let letVariable = 'hello world';
+    var varVariable = 'hello world';
+    console.log(varVariable);
+    console.log(letVariable);
+}
+console.log(varVariable);
+console.log(letVariable);// syntax error or undefined
+```
+
+该const了
