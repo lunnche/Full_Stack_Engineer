@@ -475,4 +475,103 @@ console.log(varVariable);
 console.log(letVariable);// syntax error or undefined
 ```
 
-该const了
+## Create a Variable:const  
+栗子🌰
+```javascript
+const myName = 'Gilberto';
+console.log(myName);//Output:Gilberto
+```
+
+const变量不能被reassigned,否则TypeError
+声明const变量时必须赋值，用let可以不赋值，否则SyntaxErroe
+
+## Mathematical Assignment Operators  
+```javascript
+w = w + 1;
+等效于
+w += 1;
+```
+
+同样的，有
+```
+*=
+-=
+/=
+```
+
+## The Increment and Decrement Operator  
+
+```javascript
+let a =10;
+a++;
+
+let b =20;
+b--;
+```
+
+## String Concatenation with Variables  
+
+```javascript
+let myPet = 'armadillo';
+console.log('I own a pet ' + myPet+'.');
+//Output: 'I own a pet armadillo.'
+```
+
+## String Interpolation  
+
+In the ES6 version of JavaScript,we can insert,or interpolate,variables into strings using template literals.  
+```javascript
+const myPet = 'armadillo';
+console.log('I own a pet ${myPet}.');
+//Output: I own a pet armadillo.   
+```
+
+* a `template literal` is wrapped by backticks \`
+* Inside the template literal,you'll see a placeholder,`${myPet}`.The value of `myPet` is inserted into the template literal.  
+* When we interpolate `I own a pet ${myPet}.`,the output we print is the string:`I own a pet armadillo.`  
+
+One of the biggest benefits to using template literals is the readability of the code.  
+Using template literals, you can more easily tell what the new string will be.  
+You also don't have to worry about escaping double quotes or single quotes.  
+
+***
+**Why can't we use template literals (``) all the time instead of normal string quotes(""/'')?**
+
+answer:
+
+We can use back ticks on all strings, with a few exceptions.  
+```
+aString = `this is a valid string`  
+```
+***
+
+***
+```
+why would you go through the trouble of adding the money sign and curly brackets when you could just use plus signs?
+('My name is ’ + myName + ’ My favorite city is ’ + myCity);
+the output is exactly the same. are there instances where the plus signs wont work and you have to us ${}?
+```
+
+answer:
+```
+No. Both will work, but sometimes the 'bla bla' + 'bla bla (' + someVariable +') bla bla' OR
+"bla bla " + someVariable + " bla 'direct quote' " + "bla bla" OR
+using variables to build a path to a file: 'C:\'+someUser+'\'+someFolder+'\'+someSubFolder+'\'+someFileName
+Can all be confusing. You can use the method you prefer, but you should be familiar with both. Also in JavaScript the \ is an escape character, so the code I wrote above would not produce the desired outcome. You could use double \\ 's to produce a \, or this:
+```
+```
+`C:\${someUser}\${someFolder}\${someSubFolder}\${someFileName}`
+```
+
+## typeof operator  
+```javascript
+const unknown1 = 'foo';
+console.log(typeof unknown1);//Output: string
+```
+注意：不用加括号啥的，棒棒的  
+注意：写成unknown1.typeof是不行的，因为in JS it is a unary operator and not a method or variable.All the unary operators are written in <font color="red">lowercase</font>  
+
+该Review Variables了
+
+
+
