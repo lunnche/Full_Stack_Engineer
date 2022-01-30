@@ -640,4 +640,60 @@ a computer achieves different types of goals using a programmatic approach to pr
 ![image-20220130141739530](https://raw.githubusercontent.com/lunnche/picgo-image/main/image-20220130141739530.png)
 
 
+## What is a script and how do I create one?  
+* A script is a series of instructions that the computer can follow in order to achieve a goal  
+* Each time the script runs, it might only use a subset of all the instructions.  
+* Computers approach tasks in a different way than humans, so your instructions must let the computer solve the task programmatically.  
+* To approach writing a script, break down your goal into a series of tasks and then work out each step needed to complete that task(a flowchart can help).  
+
+## HOW DO COMPUTERS FIT IN WITH THE WORLD AROUND THEM?
+
+computers create models of the world using data.  
+
+In computer programming,each physical thing in the world can be represented as an object.
+Each object can have its own:
+* Properties
+* Events
+* Methods
+
+An event is the computer's way of sticking up its hand to say, "Hey, this just happened!"
+
+## METHOD
+
+what is a method
+Method typically represent how people(or other thing) interact with an object in the real world.  
+
+## HOW A BROWSER SEES A WEB PAGE
+
+how a browser interprets the HTML code and applies styling to it.  
+1. RECEIVE A PAGE AS HTML CODE
+Each page on a website can be seen as a separate document.So, the web consists of many sites, each made up of one or more documents.  
+2. CREATE A MODEL OF THE PAGE AND STORE IT IN MEMORY  
+At the top of the model is a document object,which represents the whole document.Beneath the document object each box is called a node. Each of these nodes is another object. This example features three types of nodes representing elements, text within the elements, and attribute.  
+
+![image-20220130152640050](https://raw.githubusercontent.com/lunnche/picgo-image/main/image-20220130152640050.png)
+
+3. USE A RENDERING ENGING TO SHOW THE PAGE ON SCREEN
+If there is no CSS, the rendering engine will apply default styles to HTML elements. However, the HTML code for this example links to a CSS style sheet, so the browser requests that file and displays the page accordingly.  
+When the browser receives CSS rules, the rendering engine processes them and applies each rule to its corresponding elements.This is how the browser positions the elements inthe correct place, with the right colors, fonts, and so on.  
+
+All major browsers use a JavaScript interpreter to translate your instructions(in JavaScript) into instructions the computer can follow.  
+
+## HOW DO I WRITE A SCRIPT FOR A WEB PAGE?  
+
+### HOW HTML,CSS,& JAVASCRIPT FIT TOGETHER
+
+![image-20220130154621149](https://raw.githubusercontent.com/lunnche/picgo-image/main/image-20220130154621149.png)
+
+## PROGRESSIVE ENHANCEMENT  
+html css javascript这三层构成了一种被称为渐进增强的构建网页的流行方法的基础。
+
+These three layers form the basis of a popular approach to building web pages called progressive enhancement.  
+
+some people browse with JavaScript turned off, so you need to make sure that the page still works for them.  
+
+![image-20220130160155791](https://raw.githubusercontent.com/lunnche/picgo-image/main/image-20220130160155791.png)
+
+## CREATING A BASIC JAVASCRIPT
+
 
