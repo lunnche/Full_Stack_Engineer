@@ -320,7 +320,7 @@ portfolio 我猜是类似作品集之类的玩意？
 Where should you start?  
 * Codecademy Projects  
 * Build a project on your own  
-没有头绪的话，可以考虑重新设计别人的网站  
+  没有头绪的话，可以考虑重新设计别人的网站  
   Planning 
   Wireframe  remember the goal is improvement not perfection
 * Keep building   
@@ -581,5 +581,63 @@ console.log(typeof unknown1);//Output: string
 * Variables that have not been initialized store the primitive data type undefined.  
 * Mathmatical assignment operators make it easy to calculate a new value and assign it to the same variable.  
 * The + operator is used to concatenate strings including string values held in variables  
-* In ES6
+* In ES6,template literals use backticks ` and \${} to interpolate values into a string.  
+* The typeof keyword returns the data type (as a string) of a value.  
+
+## THE ABC OF PROGRAMMING  
+
+### WHAT IS A SCRIPT AND HOW DO I CREATE ONE
+
+A script is a series of instructions that a computer can follow to achieve a goal.
+
+> * Scripts are made up of instructions a computer can follow step-by-step.  
+> * A browser may use different parts of the script depending on how the user interacts with the web page.  
+> * Scrips can run different sections of the code in response to the situation around them.  
+
+### WRITING A SCRIPT
+
+To write a script, you need to first state your goal and then list the tasks that need to be completed in order to achieve it.  
+
+when learning a new skill, we often break it down into smaller tasks, and learn one of these at a time. With experience these individual tasks grow familiar and seem simpler.   
+
+Start with the big picture of what you want to achieve, and break that down into smaller steps.  
+
+1. DEFINE THE GOAL
+2. DESIGN THE SCRIPT
+3. CODE EACH STEP
+
+## DESIGNING A SCRIPT: TASKS
+
+Once you know the goal of your script, you can work out the individual tasks needed to achieve it. This high-level view of the tasks can be represented using a flowchart.
+
+![image-20220130105045043](https://raw.githubusercontent.com/lunnche/picgo-image/main/image-20220130105045043.png)
+
+Each individual task may be broken down into a sequence of steps. When you are ready to code the script, these steps can then be translated into individual lines of code.  
+
+![image-20220130105208428](https://raw.githubusercontent.com/lunnche/picgo-image/main/image-20220130105208428.png)
+
+
+
+## FROM STEPS TO CODE
+
+you need to get to grips with the:
+
+* Vocabulary: The words that computers understand
+* Syntax: How you put those words together to create instructions computer can follow
+
+Along with learning the language itself, if you are new to programming, you will also need to learn how 
+
+a computer achieves different types of goals using a programmatic approach to problem-solving.
+
+## DEFINING A GOAL & DESIGNING THE SCRIPT
+
+
+
+## SKETCHING OUT THE TASKS IN A FLOWCHART  
+
+流程图  有空可以学学
+
+![image-20220130141739530](https://raw.githubusercontent.com/lunnche/picgo-image/main/image-20220130141739530.png)
+
+
 
