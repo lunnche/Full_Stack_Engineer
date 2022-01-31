@@ -697,3 +697,76 @@ some people browse with JavaScript turned off, so you need to make sure that the
 ## CREATING A BASIC JAVASCRIPT
 
 书 看到 46页了
+
+![image-20220131092156259](https://raw.githubusercontent.com/lunnche/picgo-image/main/image-20220131092156259.png)
+
+Here you can see the file structure that you will end up with when you finish the example.Always treat file names as being case-sensitive.  
+
+## LINKING TO A JAVASCRIPT FILE FROM AN HTML PAGE  
+When you want to use JavaScript with a web page, you use the HTML <script> element to tell the browser it is coming across a script. Its src attribute tells people where the JavaScript file is stored.  
+
+![image-20220131094231199](https://raw.githubusercontent.com/lunnche/picgo-image/main/image-20220131094231199.png)
+
+注意：Internet Explorer sometimes prevents JavaScript runing when you open a page stroed on your hard drive. If this affects you, please try Chrome, Firefox, Opera, or Safari instead.  
+
+## PLACING THE SCRIPT IN THE PAGE  
+
+有时候你会看到把js代码直接插在页面里<script>和</script>标签之间，这种情况下就不用src属性了，因为js代码不在其他地方就在当前页面里，不过最好还是把js代码放到专属文件里。  
+
+![image-20220131094648978](https://raw.githubusercontent.com/lunnche/picgo-image/main/image-20220131094648978.png)
+
+document.write()把内容写进文档（网页）里，这是一种简单的方法但并不总是最好的方法。  
+
+## SUMMARY
+how do I wrtie a script for a web page?  
+* It is best to keep JavaScript code in its own JavaScript file. JavaScript files are text files (like HTML pages and CSS style sheets), but they have the .js extension  
+* The HTML <script> element is used in HTML pages to tell the browser to load the JavaScript file (rather like the <link> element can be used to load a CSS file).  
+* If you view the source code of the page in the browser,the JavaScript will not have changed the HTML, because the script works with the model of the web page that the browser has created.  
+
+## Kelvin Weather  
+
+如果这个项目过程中，你卡住了，或者你想看看富有经验的开发者是怎么整的，点“Get Unstuck” ，可以看视频。  
+
+## Dog Years  
+
+## What are Conditional Statements?  
+
+We'll covering the following concepts: 
+* if ,else if, and else statements  
+* comparison operators
+* logical operators
+* truthy vs falsy values
+* ternary operators
+* switch statement
+
+## If Statement  
+javascript还是用花括号的，注意格式：
+```javascript
+if(true){
+  console.log('This message
+will print!');
+}
+```
+
+## If...Else Statements
+主要还是看下格式：
+```javascript
+if (false) {
+  console.log('The code in 
+this block will not run.');
+} else {
+  console.log('But the code
+  in this block will!');
+}
+```
+
+## Comparison Operators  
+Here is a list of some handy comparison operators and their syntax:
+* Less than: \<
+* Greater than:\>
+* Less than or equal to:\<=
+* Greater than or equal to:\>=
+* Is equal to:\===
+* Is not equal to:\!==
+
+
