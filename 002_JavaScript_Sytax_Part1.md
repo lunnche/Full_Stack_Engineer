@@ -769,4 +769,16 @@ Here is a list of some handy comparison operators and their syntax:
 * Is equal to:\===
 * Is not equal to:\!==
 
+字符串也可以用\===
+```javascript
+'apples' === 'oranges'
+```
+
+## Logical Operators  
+
+there are threee logical operators:  
+* the and operator (\&&)
+* the or operator (\||)
+* the not operator, otherwise known
+  as the bang operator (!)  
 
