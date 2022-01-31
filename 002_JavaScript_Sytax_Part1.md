@@ -782,3 +782,51 @@ there are threee logical operators:
 * the not operator, otherwise known
   as the bang operator (!)  
 
+## Truthy and Falsy  
+```javascript
+let myVariable = 'I Exist!';
+
+if (myVariable) {
+   console.log(myVariable)
+} else {
+   console.log('The variable
+does not exist.')
+}
+```
+
+这种情况下myVariable的值为真  
+when used in a boolean or conditional context, it evaluates to true because it has been assigned a non-falsy value.  
+
+So which values are falsy- or evaluate to false when checked as a condition?The list of falsy values includes:
+* 0
+* Empty string like "" or ''
+* null which represent when there is no value at all
+* undefined which represent when a declared variable lacks a value.  
+* NaN, or Not a Number  
+
+## Truthy and Falsy Assignment  
+来来来，有一种让代码变短的办法：
+下面代码：
+```javascript
+let username = '';
+let defaultName;
+
+if (username) {
+  defaultName = username;
+} else {
+  defaultName = 'Stranger';
+}
+
+console.log(defaultName);
+```
+可以转换成
+```
+let username = '';
+let defaultName = username || 'Stranger';
+
+console.log(defaultName);
+```
+
+This concept is also referred to as short-circuit evaluation.  
+
+
