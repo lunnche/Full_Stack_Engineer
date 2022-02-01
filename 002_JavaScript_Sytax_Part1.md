@@ -829,4 +829,82 @@ console.log(defaultName);
 
 This concept is also referred to as short-circuit evaluation.  
 
+## Ternary Operator  
+```python
+let isNightTime = true;
+
+if (isNightTime) {
+  console.log('Turn on the lights!');
+} else {
+  console.log('Turn off the lights!');
+}
+```
+可改为
+```
+isNightTime
+? console.log('Turn on the lights!')
+: console.log('Turn off the lights!');
+```
+值得注意的是问号那行，最后加分号的话就错了。  
+
+## Else If Statements  
+一个栗子🌰
+```python
+let stopLight = 'yellow';
+
+if (stopLight === 'red') {
+  console.log('Stop!');
+} else if (stopLight === 'yellow') {
+  console.log('Slow down.');
+} else if (stopLight === 'green') {
+  console.log('Go!');
+} else {
+  console.log('Caution,unknown!');
+}
+```
+注意，else if的每个分句是要在最后加分号的。
+还要注意：else if是分开的，不是elseif。  
+
+## The switch keyword  
+
+来来来，一个栗子🌰：
+```
+let groceryItem = 'papaya';
+
+if (groceryItem === 'tomato') {
+  console.log('Tomatoes are $0.49');
+} else if (groceryItem === 'papaya') {
+  console.log('Papayas are $1.29');
+} else {
+  console.log('Invalid item');
+}
+```
+
+可以改成用switch来写：
+```
+let groceryItem = 'papaya';
+
+switch (groceryItem) {
+  case 'tomato':
+    console.log('Tomatoes are $0.49');
+    break;
+  case 'lime':
+    console.log('Limes are $1.49');
+    break;
+  case 'papaya':
+    console.log('Papayas are $1.29');
+    break;
+  default:
+    console.log('Invalid item');
+    break;
+}
+超级大注意：
+break关键字告诉计算机退出代码块，不再执行任何代码或检查代码块内的任何其他情况。注意:如果没有break关键字，将运行第一个匹配的case，但不管是否匹配，后续的每个case都将运行——包括默认值。这种行为不同于只执行一个代码块的if/else条件语句。
+
+在每个switch语句的末尾，都有一个default语句。如果这些情况都不为真，则运行default语句中的代码。
+
+## 书的第第四章DECISIONS&LOOPS pp.146-169  
+
+
+
 
