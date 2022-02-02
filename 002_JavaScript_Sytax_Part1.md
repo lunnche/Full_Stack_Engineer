@@ -963,4 +963,43 @@ var artistA = (artist || {});
 
 ## What are Functions?  
 
+## Function Declaratons  
+
+A function declaration consists of:
+* The function keyword.  
+* The name of the function, or its identifier, followed by parentheses.  
+* A function body, or the block of statements required to perform a specific task, enclosed in the function's curly brackets,`{}`.  
+
+
+
+We should also be aware of the hoisting feature in JavaScript which allows access to function declarations before they're defined.  
+看个栗子🌰
+```javascript
+greetWorld();
+
+function greetWorld(){
+  console.log('Hello,World!');
+}
+```
+
+hoisting feature 并不是一种好的做法。  
+
+## Calling a Function  
+
+## Parameters and Arguments  
+
+## Default Parameters  
+Default parameters allow parameters to have a predetermined value in case there is no argument passed into the function or if the argument is undefined when called.
+来个栗子🌰
+```javascript
+function greeting (name = 'stranger') {
+  console.log(`Hello,${name}!`)
+}
+
+greeting('Nick')
+greeting()
+```
+
+## Return
+When a function is called, the computer will run through the function's code and evaluate the result of calling the funciton. By default that resulting value is `undefined`.  
 
