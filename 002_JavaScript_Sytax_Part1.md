@@ -898,6 +898,7 @@ switch (groceryItem) {
     console.log('Invalid item');
     break;
 }
+```
 超级大注意：
 break关键字告诉计算机退出代码块，不再执行任何代码或检查代码块内的任何其他情况。注意:如果没有break关键字，将运行第一个匹配的case，但不管是否匹配，后续的每个case都将运行——包括默认值。这种行为不同于只执行一个代码块的if/else条件语句。
 
@@ -905,6 +906,61 @@ break关键字告诉计算机退出代码块，不再执行任何代码或检查
 
 ## 书的第第四章DECISIONS&LOOPS pp.146-169  
 
+## TYPE COERCION & WEAK TYPING  
 
+If you use a data type JavaScript did not expect, it tries to make sense of the operation rather than report an error.  
+
+来来来注意这个：
+JavaScript can convert data types behind the scenes to complete an operation. This is known as type coercion. For example, a string '1' could be conberted to a number 1 in the following expression: ('1' > 0).As a result, the above expression would evaluate to true.  
+
+JavaScript is said to use **weak typing** because the data type for a value can change. Some other languages require that you specify what data type each variable will be. They are said to use **strong typing**.  
+
+来来来破案了,为啥要用三个等号，而不是两个？因为JavaScript是弱类型，太强了吧啊啊啊啊啊啊啊：
+Type coercion can lead to unexpected values in your code(and also cause errors).Therefore,when checking if two values are equal, it is considered better to use strict equals operator \=== and \!== rather than \== and \!= as these strict operators check that the value and data types match.  
+
+注意两种数据类型：
+undefined: Variable has been declared but not yet assigned a value
+NaN :a value that is counted as a number. You may see it when a number is expected, but is not returned, e.g. ,('ten'/2) results in NaN.  
+
+来来来，再看个truthy和falsy的问题  
+
+![image-20220202094536520](https://raw.githubusercontent.com/lunnche/picgo-image/main/image-20220202094536520.png)
+
+## CHECKING EQUALITY & EXISTENCE
+
+Because the presence of an object or array can be considered truthy, it is often used to check for the existence of an element within a page.  
+
+```javascript
+if (document.getElementById('header')) {
+  // Found: do something
+} else {
+  // Not found: do something else
+}
+```
+
+来来来一个惊天恍然大明白，棒棒棒👍🏻
+Those new to JavaScript often think the following would do the same:
+if (document.getElementById('header') == true)
+but document.getElementById('header') would return an object which is a 
+truthy value but it is not equal to a Boolean value of true.  
+
+啊啊啊啊我的天妈，NaN这种low货居然不能等于它自己  
+
+![image-20220202095732823](https://raw.githubusercontent.com/lunnche/picgo-image/main/image-20220202095732823.png)
+
+## SHORT CIRCUIT VALUES  
+short circuit 短路  意思就是逻辑运算符从左向右执行，但凡有个真值就短路（不往下跑了），然后返回这个值。
+
+你甚至可以创建一个empty object。
+```
+var artist = '';
+var artistA = (artist || {});
+```
+
+## Magic Eight Ball  
+
+## Race Day  
+
+## What are Functions?  
 
 
