@@ -1004,3 +1004,104 @@ greeting()
 When a function is called, the computer will run through the function's code and evaluate the result of calling the funciton. By default that resulting value is `undefined`.  
 
 When a return statement is used in a function body, the execution of the function is stopped and the code that follows it will not be executed.
+
+## Helper Functions  
+We can also use the return value of a function indide another function.These functions being called within another function are often referred to as helper functions.  
+
+我理解就是套娃，看这个栗子🌰
+```javascript
+function multiplyByNineFifths(number)
+{
+  return number * (9/5);
+};
+
+function
+getFahrenheit(celsius) {
+  return 
+multiplyByNineFifths(celsius) + 32;
+};
+
+getFahrenheit(15);
+```
+
+为啥要整这个helper function  
+We can use functions to secton off small bits of logic or tasks, then use them when we need to. Writing helper functions can help take large and difficult tasks and break them into smaller and more manageable tasks.  
+
+## Function Expressions  
+
+In a function expression, the function name is usually omitted. A function with no name is called **anonymous** function.  
+
+A function expression is often stored in a variable in order to referto it.  
+
+** To declare a function expression:**  
+1. Declare a variable to make the variable's name be the name, or identifier, of your function. Since the release of ES6, it is common practice to use `const` as the keyword to declare the variable.
+2. Assign as that variable's value an anonymous function created by using the `function` keyword followed by a set of parentheses with possible parameters. Then a set of curly braces that contain the function body.  
+
+栗子
+```javascript
+variableName(argument1,argument2)
+```
+
+**Unlike function declarations, function expressions are not histed so they cannot be called before they are defined.**  
+
+## 重头戏来了 Arrow Functions  
+
+ES6 新功能 arrow function syntax, a shorter way to write functions by using the special "fat arrow" `() =>` notation.  
+
+看个栗子🌰
+```javascript
+const rectangleArea = (width, height) => {
+  let area = width * height;
+  return area;
+};
+```
+
+熟悉各种花哨的函数定义，才能看懂各种奇奇怪怪的代码。  
+
+## Concise Body Arrow Functions  
+
+**concise body**  
+
+1. Functions that take only a  single parameter do not need that parameter to be enclosed in parentheses. However, if a function takes zero or multiple parameters, parentheses are required.  
+
+![image-20220207100702344](https://raw.githubusercontent.com/lunnche/picgo-image/main/image-20220207100702344.png)
+
+2. A function body composed of a single-line block does not need curly braces. Without the curly braces, whatever that line evaluates will be **automatically returned**. The contents of the block should immediately follow the arrow `=>` and the `return` keyword can be removed.This is referred to as **implicit return**
+
+![image-20220207101138723](https://raw.githubusercontent.com/lunnche/picgo-image/main/image-20220207101138723.png)
+
+箭头函数，函数体你加了花括号的话，就要显式 return.  
+
+```javascript
+const squareNum = (num) => {
+  return num * num;
+};
+```
+
+$\downarrow$
+
+```javascript
+const squareNum = num => num * num;
+```
+
+Notice the following changes:
+* The parentheses around `num` have been removed, since it has a single parameter.
+* The curly braces `{}` have been removed since the function consists of a singel-line block.
+* The `return` keyword has been removed since the function consists o f a single-line block.  
+
+要注意区分 : 
+1. function expressions
+2. arrow functions
+3. function declarations  
+
+## Reading- pp.86-97
+### FUNCTIONS,METHODS & OBJECTS  
+
+what is a function?  
+**Functions let you group a series of statements together to perform a specific task.**  
+
+啥玩意叫IIFE  
+immediately invoked function expression  
+
+## sleep Debt Calculator  
+
