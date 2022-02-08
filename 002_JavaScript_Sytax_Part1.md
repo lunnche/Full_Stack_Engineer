@@ -1105,3 +1105,40 @@ immediately invoked function expression
 
 ## sleep Debt Calculator  
 
+## Scope  
+
+## Blocks and Scope  
+
+A block is the code found inside a set of curly braces {}.
+
+## Global Scope  
+
+In global scope,variables are declared outside of blocks.These variables are called global variables.Because global variables are not bound inside a block,they can be accessed by any code in the program,including code in blocks.  
+
+## Block Scope  
+When a variable is defined inside a block it is only accessible to the code within the curly braces `{}`.We say that variable has block scope because it is only accessible to the lines of code within that block.  
+
+Variable that are declared with block scope are known as local variables because they are only available to the code that is part of the same block.
+
+所以呢，如果你在函数体外试图调用local variables,就会触发ReferenceError:  
+
+![image-20220208161702216](https://raw.githubusercontent.com/lunnche/picgo-image/main/image-20220208161702216.png)
+
+## Scope Pollution  
+It may seem like a great idea to always make your variables accessible, but having too many global variables can cause problems in a program.  
+
+When you declare global variables, they go to the global namespace. The global namespace allows the variables to be accessible from anywhere in the program.These variables remain there until the program finishes which means our global namespace can fill up really quicky.  
+
+Scope pollution is when we have too many global variables that exist in the global namespace, or when we reuse variables across different scopes. Scope pollutio makes it difficult to keep track of our different variables and sets us up for potential accidents.For example,globally scoped variables can collide with other variables that are more locally scoped,causing unexpected behavior in our code.  
+
+来看一个scope pollution的栗子🌰：
+
+![image-20220208163214574](https://raw.githubusercontent.com/lunnche/picgo-image/main/image-20220208163214574.png)
+注意上面这个例子，函数里的num忘了写let，直接把全局变量num重新赋值了，导致之后调用到num的应用场景全出错，所以呢，不要轻易定义全局变量。  
+
+## Practice Good Scoping  
+看个怎么利用block scope的栗子🌰:  
+
+![image-20220208164907178](https://raw.githubusercontent.com/lunnche/picgo-image/main/image-20220208164907178.png)
+
+
