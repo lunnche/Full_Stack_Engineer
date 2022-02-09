@@ -1163,4 +1163,6 @@ Block scope is a powerful tool in JavaScript,since it allows us to define variab
 
 **注意 形参是parameter，实参是argument  似乎是这样**
 
+# Most of all ,have fun !  
+
 
