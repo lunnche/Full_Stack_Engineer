@@ -1141,4 +1141,26 @@ Scope pollution is when we have too many global variables that exist in the glob
 
 ![image-20220208164907178](https://raw.githubusercontent.com/lunnche/picgo-image/main/image-20220208164907178.png)
 
+Block scope is a powerful tool in JavaScript,since it allows us to define variables with precision,and not pollute the global namespace.If a variable does not need to exist outside a block- it shouldn't!  
+
+## Review:Scope  
+* Scope is the idea in programming that some variable are accessible/inaccessible from other parts of the program.  
+* Blocks are statements that exist within curly braces `{}`  
+* Global scope refers to the context within which variables are accessible to every part of the program.  
+* Global variable are variables that exist within global scope.  
+* Block scope refers to the contex within which variables are accessible only within the block they are defined.  
+* Local varaibles are variables that exist within block scope.
+* Global namespace is the space in our code that contains globally scoped information.  
+* Scope pollution is when too many variables exist in a namespace or variable names are reused.  
+
+**Scoping your variables tightly will ensure that your code has clean, organized, and modular logic.  
+
+注意：箭头函数也会导致全局变量：
+
+![image-20220209100254929](https://raw.githubusercontent.com/lunnche/picgo-image/main/image-20220209100254929.png)
+
+## Training Days  
+
+**注意 形参是parameter，实参是argument  似乎是这样**
+
 
