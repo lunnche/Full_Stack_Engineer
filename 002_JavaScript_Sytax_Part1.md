@@ -1161,8 +1161,12 @@ Block scope is a powerful tool in JavaScript,since it allows us to define variab
 
 ## Training Days  
 
-**注意 形参是parameter，实参是argument  似乎是这样**
+**注意 形参是parameter，实参是argument  似乎是这样，并不一定**
 
 # Most of all ,have fun !  
+
+啥时用多个if，啥时用if  else if ... :
+多个if适用于不管前面的if block evaluate true 还是 false,我后边都要执行。
+if else if 使用于 如果前边true了，我这段就不执行了。  
 
 
