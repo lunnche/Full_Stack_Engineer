@@ -1161,12 +1161,49 @@ Block scope is a powerful tool in JavaScript,since it allows us to define variab
 
 ## Training Days  
 
-**注意 形参是parameter，实参是argument  似乎是这样，并不一定**
+注意 形参是parameter，实参是argument  似乎是这样，并不一定
 
-# Most of all ,have fun !  
+# Most of all ,have fun !    
+
 
 啥时用多个if，啥时用if  else if ... :
 多个if适用于不管前面的if block evaluate true 还是 false,我后边都要执行。
 if else if 使用于 如果前边true了，我这段就不执行了。  
+
+## Going Off-Platform with JavaScript  
+
+## Running JavaScipt in the Browser Console  
+
+JavaScript code is normally added using the HTML <script> element for executing in web browsers,  
+
+but most modern browsers also provide a console as part of their developer tools where we can directly write and run JS,  
+
+The console is essentially a REPL(Read-Evaluate-Print-Loop)that allows us to execute JavaScript within the context of the page.such as modifying the page's DOM(Document Object Model) or logging to the console.
+
+## Opening the Browser Console  
+怎么打开browser console 因操作系统和浏览器而异，一般来说，可通过鼠标右键inspect 或者 inspect element 来打开  
+
+如果用safari的话，first got to Preferences and check the "show develop menu in menu bar" option under the advanced tab.
+
+一些快捷键：
+
+![image-20220217155924916](https://raw.githubusercontent.com/lunnche/picgo-image/main/image-20220217155924916.png)
+
+![image-20220217155957798](https://raw.githubusercontent.com/lunnche/picgo-image/main/image-20220217155957798.png)
+
+run `clear()` to clear the console.  
+
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects
+
+上边MDN文档看看 built-in functions and objects that are available to use in the console,比如 Math.sqrt()
+
+你甚至可以在web browser's console里access console object.
+可以在browser console 里写自定义函数  
+
+怎么打开一个空白页面？
+在浏览器地址栏输入 about:blank  
+你可以在console里输入`document.body.innerHTML`来验证`<body>`里没有HTML代码。  
+
+![image-20220217165806418](https://raw.githubusercontent.com/lunnche/picgo-image/main/image-20220217165806418.png)
 
 
