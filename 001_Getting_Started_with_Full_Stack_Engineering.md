@@ -48,3 +48,6 @@ tools that you do know to kind of build a new strategy that you didn't have befo
 然后需要学javascript来增加互动性到前端，javascript也用于后端，然后呢
 如果你想要一个存储数据的app，你需要学SQL，一种数据库语言可以实现数据存取，
 
+## Internet
+
+
