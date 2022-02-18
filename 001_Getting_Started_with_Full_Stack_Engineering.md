@@ -50,4 +50,63 @@ tools that you do know to kind of build a new strategy that you didn't have befo
 
 ## Internet
 
+TCP/IP: transmission control protocal  / internet protocal  
+
+![image-20220218164641741](https://raw.githubusercontent.com/lunnche/picgo-image/main/image-20220218164641741.png)
+
+## The World Wide Web  
+
+internet和www 的区别：
+现在来说，people often use the terms internet and world wide web interchangeably,
+they actually refer to quite different things.
+
+ internet是指计算设备连接在一起的实际网络。尽管互联网早在20世纪80年代就已经存在了，但对于大多数人来说，并没有一种直观的方式来浏览internet。internet只是将一台电脑产生的信息发送给另一台电脑。
+
+ 万维网是一个相互链接的网站和其他网络资源的集合。万维网，结合上世纪90年代网络浏览器的兴起，推出了一个用户友好的界面，使用户可以浏览多媒体内容，并与其他用户互动。
+
+ the internet is a network that links computer devices worldwide, enabling people to share information with one another despite vast distances.
+
+## Browsers and Servers  
+
+http : hypertext transfer protocol  
+
+https : the data is being transferred securely 
+
+![image-20220218170247225](https://raw.githubusercontent.com/lunnche/picgo-image/main/image-20220218170247225.png)
+
+when the server sends back a response it sends a status code that accompanies the requested resource 
+you might be familiar with scene 404 error message when browsing the internet.  
+this is an http response code that indicates that the requested content wasn't found   
+
+http provides reliable structure to the interplay between the client and the server .
+
+statsus code 
+
+![image-20220218171644121](https://raw.githubusercontent.com/lunnche/picgo-image/main/image-20220218171644121.png)
+
+## How Do Browsers Work  
+
+most of the time,our devices aren't making a single request.Every time we load a webpage,our device sends a request for each file that makes up that page.So even wehn we're just loading one webpage,that page can make multiple requests in order to retrieve different pieces of content, like images.  
+
+So how does this process work when we're making multiple requests simultaneously?  
+All of following steps happen in a split second:
+1. When a user types in a URL and presses enter, the server processes the request and sends the HTML file back to the client. HTML files hold the content of a website and they also contain links for any additional assets or code that are needed to display the site properly.
+2. The browser will begin to search for elements in the HTML file and it will start to make additional HTTP requests for any other external resources used by the HTML file. This often includes:
+* One or more CSS stylesheets. CSS stands for cascading style sheets; CSS creates the style and layout of a web page. The browser will request the CSS stylesheet, and when the server sends it back, the browser analyzes the CSS and starts applying the visual styles to the content of the site.
+* The request-response cycle also sends website assets, like images and videos, from the server to the browser. If these files are large, there might even be a noticeable delay before they are rendered by the browser.
+* One or more JavaScript files. JavaScript makes the webpage interactive. This programming language functions as the “behavior” of the web page. A webpage that does not use JavaScript is known as a static webpage.
+
+In most modern browsers, these additional requests are made in parallel
+
+The HTML will be displayed even if some of the other assets have not been received by the browser.  
+
+以上的这些过程，一秒甚至更快就完成了，具体多块取决于：
+* the speed of the user's connection
+* the size of the website
+* physical distance between the browser and the server.  
+
+## Web 2.0  
+
+A collection of advances in the early 2000s created a cluster of web applications that are often called “Web 2.0”. In comparison to early static websites, Web 2.0 applications are often defined by:
+* Providing a dynamic user experience by offering content that responds to user input without forcing the page to reload. In the early web, user input would typically take the user to a new page — and they would have to wait for the new page to load. In Web 2.0, websites could just update selected regions of the page, avoiding the interruption caused by reloading.
 
