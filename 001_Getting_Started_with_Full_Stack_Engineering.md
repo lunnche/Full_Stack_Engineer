@@ -109,4 +109,33 @@ The HTML will be displayed even if some of the other assets have not been receiv
 
 A collection of advances in the early 2000s created a cluster of web applications that are often called “Web 2.0”. In comparison to early static websites, Web 2.0 applications are often defined by:
 * Providing a dynamic user experience by offering content that responds to user input without forcing the page to reload. In the early web, user input would typically take the user to a new page — and they would have to wait for the new page to load. In Web 2.0, websites could just update selected regions of the page, avoiding the interruption caused by reloading.
+* Emphasizing user-generated content and social sharing. In the early web, content was generally authored by a single source. The rise of blogging, social media, and wikis in web 2.0 meant that users could generate content and share it with their friends.
+
+web2.0的技术进步：
+1. jQuery是第一个可以在网页运行时获取数据的JavaScript框架。
+2. 连接到数据库的web框架的兴起，如Spring、Django和Ruby-on-Rails，使用户生成的内容能够被有效地创建、存储和显示。  
+
+web 1.0 和 2.0网页的区别
+
+![image-20220221091319309](https://raw.githubusercontent.com/lunnche/picgo-image/main/image-20220221091319309.png)
+
+web 1.0 网页是静态的： 它不响应用户行为，内容对所有用户都是一样的。
+
+web 2.0 网页是：
+互动-你可以在页面上点赞和评论
+动态-发布后（12小时内）无需重新加载整个页面就可以更新。
+允许社交互动
+
+移动互联网 
+
+响应式网页设计  
+响应式网页设计的兴起改变了网站的构建方式。响应式网页设计是通过添加到CSS语言来实现的，比如媒体查询和相关单元。这些增加的内容允许网站的显示根据窗口的大小进行调整。
+
+## What is web development
+主要用到的四种语言：
+* HTML structures website content
+* CSS applies styling to websites
+* JavaScript adds interactivity to websites
+* SQL allows your web application to store and retrieve data  
+
 
