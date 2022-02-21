@@ -138,4 +138,22 @@ web 2.0 网页是：
 * JavaScript adds interactivity to websites
 * SQL allows your web application to store and retrieve data  
 
+## What is HTML  
+
+## HTML Markup  
+
+HTML separates content and annotation by using HTML tags, which are denoted by angle brackets (also known as less-than and greater-than signs).  
+
+## HTML Elements  
+
+![image-20220221104016330](https://raw.githubusercontent.com/lunnche/picgo-image/main/image-20220221104016330.png)
+
+## Hypertext and the world wide web  
+
+## Adding hyperlinks  
+
+Reading and modifying code is an essential first step in learning to build things for the web.  
+
+Links are created in HTML with something called the `href` attribute,which stands for hyperlink reference.
+
 
