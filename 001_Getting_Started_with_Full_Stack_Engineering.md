@@ -156,4 +156,48 @@ Reading and modifying code is an essential first step in learning to build thing
 
 Links are created in HTML with something called the `href` attribute,which stands for hyperlink reference.
 
+anchor tag 链接标记 `<a>`
+
+例如：
+```html
+<a href="www.codecademy.com">Learn to code!</a>
+```
+
+## What is CSS
+CSS is the language that provides style to the content of an HTML page.This includes colors,fonts,positioning,layout,and more!
+
+为什么我们需要一种用于内容和表示的独立语言?这是计算机科学分离关注点原理的一个例子。当每个部分都有它试图解决的明显区别的问题时，大型代码库可以保持可维护性。
+
+由于样式规则与内容本身是分开描述的，所以如果添加了更多段落、图像或其他形式的内容，她可以期望它们以与现有内容相同的方式进行样式设置。从长远来看，这将节省时间，特别是当她的网站变得越来越复杂的时候。
+
+![image-20220301142318873](https://raw.githubusercontent.com/lunnche/picgo-image/main/image-20220301142318873.png)
+
+## Applying CSS
+
+An HTML link tag is often used to create a connection between an HTML file and CSS file and tells the browser to apply the CSS styles to the HTML.
+
+## what is JavaScript?
+## JavaScript Functions
+## What is SQL?
+
+## Review
+JavaScript was initially just a language for interacting with HTML, but JavaScript has expanded to be a general-purpose programming language that can be run outside of the browser. You can now build web applications, browser games, desktop applications, and even VR/AR experiences in JavaScript.
+
+# introduction to HTML
+
+Only content inside the opening  and closing body tags can be displayed to the screen.
+```html
+<body>
+  <p>What's up, doc?</p>
+</body>
+```
+
+## HTML structure  
+
+Understanding HTML hierarchy is important because child elements can inherit behavior and styling from their parent element. 
+
+## Headings  
+
+## Divs
+
 
