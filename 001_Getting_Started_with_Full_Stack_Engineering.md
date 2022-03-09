@@ -200,4 +200,44 @@ Understanding HTML hierarchy is important because child elements can inherit beh
 
 ## Divs
 
+`<div>`s don' inherently have a visualrepresentation.  
+
+div的意义是啥，它看不见，但对于自定义样式非常有用，div包起来的部分可以使用同样的style
+
+## Attributes
+🌰
+```html
+<div id="intro">
+  <h1>Introduction</h1>
+</div>
+```
+
+## Displaying Text
+if you want to display text in HTML,you can use a paragraph or span:
+`<p>`只能包含纯文本
+`<span>`不只能包含纯文本，还有其他HTML元素，它们用于分隔与其他内容在同一行上的小段内容。
+看个栗子
+
+![image-20220309092634230](https://raw.githubusercontent.com/lunnche/picgo-image/main/image-20220309092634230.png)
+
+上面的`<span>`的用途是啥？将"Self-driving cars"与段落中其余文本分开。
+
+## Styling Text
+`<em>`  emphasizes text
+`<strong>` highlights important text
+
+你可以自己设置让浏览器如何展示`<em>`和`<strong>`标签
+默认是：
+The `<em>` tag will generally render as italic emphahsis.
+The `<strong`> will generally render as bold emphasis.
+
+## Line Breaks
+`<br>`  只有starting tag ,没有 close tag
+
+## Unordered Lists
+🌰
+
+![image-20220309095559692](https://raw.githubusercontent.com/lunnche/picgo-image/main/image-20220309095559692.png)
+
+## Ordered Lists
 
