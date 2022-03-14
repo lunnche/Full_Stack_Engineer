@@ -292,5 +292,9 @@ A URL is the web address or local address where a file is stored.
 <!DCOTYPE html>
 ```
 
-## The <html> tag 
+## The `<html>` tag 
+
+![image-20220314160625372](https://raw.githubusercontent.com/lunnche/picgo-image/main/image-20220314160625372.png)
+
+## The Head
 
