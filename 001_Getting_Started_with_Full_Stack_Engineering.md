@@ -240,4 +240,57 @@ The `<strong`> will generally render as bold emphasis.
 ![image-20220309095559692](https://raw.githubusercontent.com/lunnche/picgo-image/main/image-20220309095559692.png)
 
 ## Ordered Lists
+也是`<ol>`里面加`<li>`的样式
+
+## Images
+`<img>` tag is a self-closing tag.
+self-closing tag 后边 加不加`/`都行
+```html
+<img src="image=location.jpg" />
+```
+
+src : uniform resource locator(URL).
+A URL is the web address or local address where a file is stored.
+
+## Image Alts
+
+![image-20220314093730022](https://raw.githubusercontent.com/lunnche/picgo-image/main/image-20220314093730022.png)
+
+整`alt`还有这些意义：
+1. 图片未正常加载，鼠标悬停显示文字（alt中设置的图片描述信息）
+
+
+整`alt`还有这些意义：
+1. 图片未正常加载，鼠标悬停显示文字（alt中设置的图片描述信息）
+
+
+整`alt`还有这些意义：
+1. 图片未正常加载，鼠标悬停显示文字（alt中设置的图片描述信息）
+2. 借助屏幕阅读器，盲人可以听到你设置的图片描述
+3. 提升你网站的ranking，搜索引擎搜不到图，但能搜到你alt中设置的图片描述信息
+
+如果你的图片不表达有用信息，alt标签就留空  
+
+## Videos
+和`<img>`不同,`<video>标签要有开闭标签`,
+
+![image-20220314095242660](https://raw.githubusercontent.com/lunnche/picgo-image/main/image-20220314095242660.png)
+
+上面controls 表示包含基本视频控制，比如暂停，播放等  
+
+标签之间的文字"Video not supported"，只会在视频显示不出来的时候展示  
+
+## Review
+
+![image-20220314101300176](https://raw.githubusercontent.com/lunnche/picgo-image/main/image-20220314101300176.png)
+
+## Preparing for HTML
+让浏览器知道我们在用HTML
+
+在文档开始处进行声明
+```html
+<!DCOTYPE html>
+```
+
+## The <html> tag 
 
