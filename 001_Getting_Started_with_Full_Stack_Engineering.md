@@ -297,4 +297,77 @@ A URL is the web address or local address where a file is stored.
 ![image-20220314160625372](https://raw.githubusercontent.com/lunnche/picgo-image/main/image-20220314160625372.png)
 
 ## The Head
+The `<head>` element contains the metadata for a web page. Metadata is information about the page that isn’t displayed directly on the web page.
+
+## Page Titles
+
+![image-20220322110121921](https://raw.githubusercontent.com/lunnche/picgo-image/main/image-20220322110121921.png)
+
+## Linking to Other Web Pages
+
+![image-20220322134339160](https://raw.githubusercontent.com/lunnche/picgo-image/main/image-20220322134339160.png)
+
+## Opening Links in a New Window
+
+![image-20220322134854111](https://raw.githubusercontent.com/lunnche/picgo-image/main/image-20220322134854111.png)
+
+## Linking to Relative Page
+网页是怎么储存的
+
+![image-20220322135439208](https://raw.githubusercontent.com/lunnche/picgo-image/main/image-20220322135439208.png)
+
+用relative path来连接到同在根目录下的其他html文件
+
+![image-20220322135616720](https://raw.githubusercontent.com/lunnche/picgo-image/main/image-20220322135616720.png)
+
+## Linking At Will
+
+![image-20220322140251153](https://raw.githubusercontent.com/lunnche/picgo-image/main/image-20220322140251153.png)
+
+## Linking to Same Page
+In order to link to a target on the same page, we must give the target an id, like this:
+
+![image-20220322140818720](https://raw.githubusercontent.com/lunnche/picgo-image/main/image-20220322140818720.png)
+An id should be descriptive to make it easier to remember the purpose of a link. The target link is a string containing the # character and the target element’s id.
+
+![image-20220322141137173](https://raw.githubusercontent.com/lunnche/picgo-image/main/image-20220322141137173.png)
+
+An id is especially helpful for organizing content belonging to a div!
+
+## Whitespace
+Programmers use two tools to visualize the relationship between elements: whitespace and indentation.
+
+## Indentation
+the W3C recommends 2 spaces of indentation when writing HTML code
+
+## Comments
+
+![image-20220322143634359](https://raw.githubusercontent.com/lunnche/picgo-image/main/image-20220322143634359.png)
+
+## HTML Tags
+在这里查看所有的html tag：
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element
+
+review what I learn:
+
+![image-20220322144754653](https://raw.githubusercontent.com/lunnche/picgo-image/main/image-20220322144754653.png)
+
+# Intro to Mozilla Developer Network
+Learn how to search and use the Mozilla Developer Network documentation
+
+MDN有关于网络开发的各种各样的文档，包括html，css，javascript
+
+在MDN上搜索文章：
+一般文章包括这些内容：
+A definition and demo
+Attributes
+Usage notes
+Examples
+Accessibility concerns
+Specifications
+Browser compatibility
+Related topics
+
+没必要通读，没必要全搞懂，关注对自己最有意义的即可。
+其中的Browser Compatibility 部分  类似于  caniuse.com 这个网站会less detailed 一些。
 
