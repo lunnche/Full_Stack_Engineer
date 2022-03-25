@@ -371,3 +371,17 @@ Related topics
 没必要通读，没必要全搞懂，关注对自己最有意义的即可。
 其中的Browser Compatibility 部分  类似于  caniuse.com 这个网站会less detailed 一些。
 
+## HTML on MDN Web Docs:Debugging
+
+HTML和DOM的区别
+
+HTML represents initial page content, and the DOM represents current page content. When JavaScript adds, removes, or edits nodes, the DOM becomes different than the HTML.
+
+Chrom DevTools 初步教程：https://developer.chrome.com/docs/devtools/dom/
+
+因为HTML对错误比较宽容，会帮你自动修补你的有bug的代码，但这样可能导致意想不到的错误，一个好的办法是先在Markup Validation Service 中检查代码错误
+the best strategy is to start by running your HTML page through the Markup Validation Service:https://validator.w3.org/
+
+## Introduction to Tables
+
+
