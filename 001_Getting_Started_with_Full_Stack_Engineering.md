@@ -384,4 +384,10 @@ the best strategy is to start by running your HTML page through the Markup Valid
 
 ## Introduction to Tables
 
+![image-20220331152818139](https://raw.githubusercontent.com/lunnche/picgo-image/main/image-20220331152818139.png)
+
+$\downarrow$
+
+![image-20220331152838187](https://raw.githubusercontent.com/lunnche/picgo-image/main/image-20220331152838187.png)
+
 
